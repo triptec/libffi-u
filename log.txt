@@ -1,0 +1,132 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded libffi v0.6.4
+  Downloaded libc v0.2.50
+  Downloaded abort_on_panic v1.0.0
+  Downloaded libffi-sys v0.6.3
+  Downloaded pkg-config v0.3.14
+  Downloaded bindgen v0.31.3
+  Downloaded clap v2.32.0
+  Downloaded make-cmd v0.1.0
+  Downloaded regex v0.2.11
+  Downloaded cfg-if v0.1.7
+  Downloaded lazy_static v0.2.11
+  Downloaded peeking_take_while v0.1.2
+  Downloaded which v1.0.5
+  Downloaded cexpr v0.2.3
+  Downloaded quote v0.3.15
+  Downloaded log v0.3.9
+  Downloaded bitflags v1.0.4
+  Downloaded strsim v0.7.0
+  Downloaded clang-sys v0.21.2
+  Downloaded atty v0.2.11
+  Downloaded env_logger v0.4.3
+  Downloaded memchr v2.2.0
+  Downloaded vec_map v0.8.1
+  Downloaded unicode-width v0.1.5
+  Downloaded regex-syntax v0.5.6
+  Downloaded thread_local v0.3.6
+  Downloaded aho-corasick v0.6.10
+  Downloaded utf8-ranges v1.0.2
+  Downloaded nom v3.2.1
+  Downloaded ansi_term v0.11.0
+  Downloaded glob v0.2.11
+  Downloaded ucd-util v0.1.3
+  Downloaded libloading v0.4.3
+  Downloaded log v0.4.6
+  Downloaded textwrap v0.10.0
+  Downloaded memchr v1.0.2
+  Downloaded lazy_static v1.3.0
+   Compiling libc v0.2.50
+   Compiling memchr v2.2.0
+   Compiling lazy_static v1.3.0
+   Compiling cfg-if v0.1.7
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.50/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="use_std"' -C metadata=711ddc60c3f11cde -C extra-filename=-711ddc60c3f11cde --out-dir /src/target/debug/build/libc-711ddc60c3f11cde -L dependency=/src/target/debug/deps --cap-lints allow`
+     Running `rustc --crate-name lazy_static /root/.cargo/registry/src/github.com-1ecc6299db9ec823/lazy_static-1.3.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=afc97fc38871e70e -C extra-filename=-afc97fc38871e70e --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+     Running `rustc --crate-name cfg_if /root/.cargo/registry/src/github.com-1ecc6299db9ec823/cfg-if-0.1.7/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=1e34a1283119a981 -C extra-filename=-1e34a1283119a981 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.0/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="use_std"' -C metadata=4760b7f7718db6de -C extra-filename=-4760b7f7718db6de --out-dir /src/target/debug/build/memchr-4760b7f7718db6de -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling glob v0.2.11
+     Running `rustc --crate-name glob /root/.cargo/registry/src/github.com-1ecc6299db9ec823/glob-0.2.11/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=334bcf2d88b098e9 -C extra-filename=-334bcf2d88b098e9 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling ucd-util v0.1.3
+     Running `rustc --crate-name ucd_util /root/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=c7796064d62c625f -C extra-filename=-c7796064d62c625f --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling libloading v0.4.3
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.4.3/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 -C metadata=fcaa85232c2b1dd5 -C extra-filename=-fcaa85232c2b1dd5 --out-dir /src/target/debug/build/libloading-fcaa85232c2b1dd5 -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling regex v0.2.11
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-0.2.11/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' -C metadata=34c9f20b60498041 -C extra-filename=-34c9f20b60498041 --out-dir /src/target/debug/build/regex-34c9f20b60498041 -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling utf8-ranges v1.0.2
+     Running `rustc --crate-name utf8_ranges /root/.cargo/registry/src/github.com-1ecc6299db9ec823/utf8-ranges-1.0.2/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=0918e619d385a370 -C extra-filename=-0918e619d385a370 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling unicode-width v0.1.5
+     Running `rustc --crate-name unicode_width /root/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-width-0.1.5/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' -C metadata=4918b331d05ca4e1 -C extra-filename=-4918b331d05ca4e1 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling strsim v0.7.0
+     Running `rustc --crate-name strsim /root/.cargo/registry/src/github.com-1ecc6299db9ec823/strsim-0.7.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=8d635c2213f0af1f -C extra-filename=-8d635c2213f0af1f --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling vec_map v0.8.1
+     Running `rustc --crate-name vec_map /root/.cargo/registry/src/github.com-1ecc6299db9ec823/vec_map-0.8.1/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=27550508834a0a9e -C extra-filename=-27550508834a0a9e --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling bitflags v1.0.4
+     Running `rustc --crate-name bitflags /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bitflags-1.0.4/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' -C metadata=9d9f9764ca8612fc -C extra-filename=-9d9f9764ca8612fc --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling bindgen v0.31.3
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bindgen-0.31.3/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="env_logger"' --cfg 'feature="log"' --cfg 'feature="logging"' -C metadata=503162269295a202 -C extra-filename=-503162269295a202 --out-dir /src/target/debug/build/bindgen-503162269295a202 -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling ansi_term v0.11.0
+     Running `rustc --crate-name ansi_term /root/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_term-0.11.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=f775cf444bc750e9 -C extra-filename=-f775cf444bc750e9 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling peeking_take_while v0.1.2
+     Running `rustc --crate-name peeking_take_while /root/.cargo/registry/src/github.com-1ecc6299db9ec823/peeking_take_while-0.1.2/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=66bf12a048eedf7f -C extra-filename=-66bf12a048eedf7f --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling quote v0.3.15
+     Running `rustc --crate-name quote /root/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-0.3.15/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=5b8023b9bce1527c -C extra-filename=-5b8023b9bce1527c --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling lazy_static v0.2.11
+     Running `rustc --crate-name lazy_static /root/.cargo/registry/src/github.com-1ecc6299db9ec823/lazy_static-0.2.11/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=2a511f1c42d7a161 -C extra-filename=-2a511f1c42d7a161 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling make-cmd v0.1.0
+     Running `rustc --crate-name make_cmd /root/.cargo/registry/src/github.com-1ecc6299db9ec823/make-cmd-0.1.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=71c2e0493b7c5ba2 -C extra-filename=-71c2e0493b7c5ba2 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling pkg-config v0.3.14
+     Running `rustc --crate-name pkg_config /root/.cargo/registry/src/github.com-1ecc6299db9ec823/pkg-config-0.3.14/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=b1583f603d11acaa -C extra-filename=-b1583f603d11acaa --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling abort_on_panic v1.0.0
+     Running `rustc --crate-name abort_on_panic /root/.cargo/registry/src/github.com-1ecc6299db9ec823/abort_on_panic-1.0.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=aa495b1080d3d180 -C extra-filename=-aa495b1080d3d180 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow`
+   Compiling log v0.4.6
+     Running `rustc --crate-name log /root/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.6/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="std"' -C metadata=86bd3d03706a8200 -C extra-filename=-86bd3d03706a8200 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern cfg_if=/src/target/debug/deps/libcfg_if-1e34a1283119a981.rlib --cap-lints allow`
+   Compiling thread_local v0.3.6
+   Compiling regex-syntax v0.5.6
+     Running `rustc --crate-name regex_syntax /root/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-syntax-0.5.6/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=b7ee5e6563fa4dc4 -C extra-filename=-b7ee5e6563fa4dc4 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern ucd_util=/src/target/debug/deps/libucd_util-c7796064d62c625f.rlib --cap-lints allow`
+     Running `rustc --crate-name thread_local /root/.cargo/registry/src/github.com-1ecc6299db9ec823/thread_local-0.3.6/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=490b6783e7f5080a -C extra-filename=-490b6783e7f5080a --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern lazy_static=/src/target/debug/deps/liblazy_static-afc97fc38871e70e.rlib --cap-lints allow`
+     Running `/src/target/debug/build/libc-711ddc60c3f11cde/build-script-build`
+     Running `/src/target/debug/build/memchr-4760b7f7718db6de/build-script-build`
+     Running `/src/target/debug/build/libloading-fcaa85232c2b1dd5/build-script-build`
+     Running `/src/target/debug/build/regex-34c9f20b60498041/build-script-build`
+   Compiling textwrap v0.10.0
+     Running `rustc --crate-name textwrap /root/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.10.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=90b0b6e76889f750 -C extra-filename=-90b0b6e76889f750 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern unicode_width=/src/target/debug/deps/libunicode_width-4918b331d05ca4e1.rlib --cap-lints allow`
+   Compiling clang-sys v0.21.2
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-0.21.2/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 --cfg 'feature="clang_3_9"' --cfg 'feature="gte_clang_3_6"' --cfg 'feature="gte_clang_3_7"' --cfg 'feature="gte_clang_3_8"' --cfg 'feature="gte_clang_3_9"' --cfg 'feature="libloading"' --cfg 'feature="runtime"' -C metadata=ed41714d6830efd6 -C extra-filename=-ed41714d6830efd6 --out-dir /src/target/debug/build/clang-sys-ed41714d6830efd6 -L dependency=/src/target/debug/deps --extern glob=/src/target/debug/deps/libglob-334bcf2d88b098e9.rlib --cap-lints allow`
+   Compiling log v0.3.9
+     Running `rustc --crate-name log /root/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.3.9/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="log"' --cfg 'feature="use_std"' -C metadata=7e36cdf5c7bad7b6 -C extra-filename=-7e36cdf5c7bad7b6 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern log=/src/target/debug/deps/liblog-86bd3d03706a8200.rlib --cap-lints allow`
+     Running `rustc --crate-name libc /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.50/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="use_std"' -C metadata=49802dcd396439e8 -C extra-filename=-49802dcd396439e8 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow --cfg libc_priv_mod_use --cfg libc_union --cfg libc_const_size_of --cfg libc_align --cfg libc_core_cvoid --cfg libc_packedN`
+     Running `rustc --crate-name memchr /root/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-2.2.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="use_std"' -C metadata=3e1032aa5c7637ed -C extra-filename=-3e1032aa5c7637ed --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow --cfg memchr_runtime_simd --cfg memchr_runtime_sse2 --cfg memchr_runtime_sse42 --cfg memchr_runtime_avx`
+     Running `rustc --crate-name libloading /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libloading-0.4.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=f5a54a1953bd6720 -C extra-filename=-f5a54a1953bd6720 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern lazy_static=/src/target/debug/deps/liblazy_static-afc97fc38871e70e.rlib --cap-lints allow -l dl`
+     Running `/src/target/debug/build/clang-sys-ed41714d6830efd6/build-script-build`
+     Running `/src/target/debug/build/bindgen-503162269295a202/build-script-build`
+   Compiling aho-corasick v0.6.10
+     Running `rustc --crate-name aho_corasick /root/.cargo/registry/src/github.com-1ecc6299db9ec823/aho-corasick-0.6.10/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=27e3cb3682fb766a -C extra-filename=-27e3cb3682fb766a --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern memchr=/src/target/debug/deps/libmemchr-3e1032aa5c7637ed.rlib --cap-lints allow`
+   Compiling memchr v1.0.2
+   Compiling atty v0.2.11
+     Running `rustc --crate-name memchr /root/.cargo/registry/src/github.com-1ecc6299db9ec823/memchr-1.0.2/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="libc"' --cfg 'feature="use_std"' -C metadata=d45fcbdfe1e9e414 -C extra-filename=-d45fcbdfe1e9e414 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern libc=/src/target/debug/deps/liblibc-49802dcd396439e8.rlib --cap-lints allow`
+     Running `rustc --crate-name atty /root/.cargo/registry/src/github.com-1ecc6299db9ec823/atty-0.2.11/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=8d1d4b29dfd3e4e7 -C extra-filename=-8d1d4b29dfd3e4e7 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern libc=/src/target/debug/deps/liblibc-49802dcd396439e8.rlib --cap-lints allow`
+   Compiling which v1.0.5
+     Running `rustc --crate-name which /root/.cargo/registry/src/github.com-1ecc6299db9ec823/which-1.0.5/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=085ef3e1a65b2f71 -C extra-filename=-085ef3e1a65b2f71 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern libc=/src/target/debug/deps/liblibc-49802dcd396439e8.rlib --cap-lints allow`
+     Running `rustc --crate-name clang_sys /root/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-0.21.2/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="clang_3_9"' --cfg 'feature="gte_clang_3_6"' --cfg 'feature="gte_clang_3_7"' --cfg 'feature="gte_clang_3_8"' --cfg 'feature="gte_clang_3_9"' --cfg 'feature="libloading"' --cfg 'feature="runtime"' -C metadata=aed0206b83cef8af -C extra-filename=-aed0206b83cef8af --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern glob=/src/target/debug/deps/libglob-334bcf2d88b098e9.rlib --extern libc=/src/target/debug/deps/liblibc-49802dcd396439e8.rlib --extern libloading=/src/target/debug/deps/liblibloading-f5a54a1953bd6720.rlib --cap-lints allow`
+   Compiling clap v2.32.0
+     Running `rustc --crate-name clap /root/.cargo/registry/src/github.com-1ecc6299db9ec823/clap-2.32.0/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="ansi_term"' --cfg 'feature="atty"' --cfg 'feature="color"' --cfg 'feature="default"' --cfg 'feature="strsim"' --cfg 'feature="suggestions"' --cfg 'feature="vec_map"' -C metadata=c16f52ac2c3fe237 -C extra-filename=-c16f52ac2c3fe237 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern ansi_term=/src/target/debug/deps/libansi_term-f775cf444bc750e9.rlib --extern atty=/src/target/debug/deps/libatty-8d1d4b29dfd3e4e7.rlib --extern bitflags=/src/target/debug/deps/libbitflags-9d9f9764ca8612fc.rlib --extern strsim=/src/target/debug/deps/libstrsim-8d635c2213f0af1f.rlib --extern textwrap=/src/target/debug/deps/libtextwrap-90b0b6e76889f750.rlib --extern unicode_width=/src/target/debug/deps/libunicode_width-4918b331d05ca4e1.rlib --extern vec_map=/src/target/debug/deps/libvec_map-27550508834a0a9e.rlib --cap-lints allow`
+   Compiling nom v3.2.1
+     Running `rustc --crate-name nom /root/.cargo/registry/src/github.com-1ecc6299db9ec823/nom-3.2.1/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="memchr"' --cfg 'feature="std"' --cfg 'feature="stream"' --cfg 'feature="verbose-errors"' -C metadata=d50d3ef168d8f0d1 -C extra-filename=-d50d3ef168d8f0d1 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern memchr=/src/target/debug/deps/libmemchr-d45fcbdfe1e9e414.rlib --cap-lints allow`
+   Compiling cexpr v0.2.3
+     Running `rustc --crate-name cexpr /root/.cargo/registry/src/github.com-1ecc6299db9ec823/cexpr-0.2.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=0474bfe204c73c7d -C extra-filename=-0474bfe204c73c7d --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern nom=/src/target/debug/deps/libnom-d50d3ef168d8f0d1.rlib --cap-lints allow`
+     Running `rustc --crate-name regex /root/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-0.2.11/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' -C metadata=40dc9ad9b1fe5545 -C extra-filename=-40dc9ad9b1fe5545 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern aho_corasick=/src/target/debug/deps/libaho_corasick-27e3cb3682fb766a.rlib --extern memchr=/src/target/debug/deps/libmemchr-3e1032aa5c7637ed.rlib --extern regex_syntax=/src/target/debug/deps/libregex_syntax-b7ee5e6563fa4dc4.rlib --extern thread_local=/src/target/debug/deps/libthread_local-490b6783e7f5080a.rlib --extern utf8_ranges=/src/target/debug/deps/libutf8_ranges-0918e619d385a370.rlib --cap-lints allow`
+   Compiling env_logger v0.4.3
+     Running `rustc --crate-name env_logger /root/.cargo/registry/src/github.com-1ecc6299db9ec823/env_logger-0.4.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="regex"' -C metadata=1c5e9ea3437f33a1 -C extra-filename=-1c5e9ea3437f33a1 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern log=/src/target/debug/deps/liblog-7e36cdf5c7bad7b6.rlib --extern regex=/src/target/debug/deps/libregex-40dc9ad9b1fe5545.rlib --cap-lints allow`
+     Running `rustc --crate-name bindgen /root/.cargo/registry/src/github.com-1ecc6299db9ec823/bindgen-0.31.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 --cfg 'feature="default"' --cfg 'feature="env_logger"' --cfg 'feature="log"' --cfg 'feature="logging"' -C metadata=57acacd945a0f455 -C extra-filename=-57acacd945a0f455 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern cexpr=/src/target/debug/deps/libcexpr-0474bfe204c73c7d.rlib --extern cfg_if=/src/target/debug/deps/libcfg_if-1e34a1283119a981.rlib --extern clang_sys=/src/target/debug/deps/libclang_sys-aed0206b83cef8af.rlib --extern clap=/src/target/debug/deps/libclap-c16f52ac2c3fe237.rlib --extern env_logger=/src/target/debug/deps/libenv_logger-1c5e9ea3437f33a1.rlib --extern lazy_static=/src/target/debug/deps/liblazy_static-2a511f1c42d7a161.rlib --extern log=/src/target/debug/deps/liblog-7e36cdf5c7bad7b6.rlib --extern peeking_take_while=/src/target/debug/deps/libpeeking_take_while-66bf12a048eedf7f.rlib --extern quote=/src/target/debug/deps/libquote-5b8023b9bce1527c.rlib --extern regex=/src/target/debug/deps/libregex-40dc9ad9b1fe5545.rlib --extern which=/src/target/debug/deps/libwhich-085ef3e1a65b2f71.rlib --cap-lints allow`
+   Compiling libffi-sys v0.6.3
+     Running `rustc --crate-name build_script_build /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libffi-sys-0.6.3/build.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 -C metadata=90a093dae0861c64 -C extra-filename=-90a093dae0861c64 --out-dir /src/target/debug/build/libffi-sys-90a093dae0861c64 -L dependency=/src/target/debug/deps --extern bindgen=/src/target/debug/deps/libbindgen-57acacd945a0f455.rlib --extern make_cmd=/src/target/debug/deps/libmake_cmd-71c2e0493b7c5ba2.rlib --extern pkg_config=/src/target/debug/deps/libpkg_config-b1583f603d11acaa.rlib --cap-lints allow`
+     Running `/src/target/debug/build/libffi-sys-90a093dae0861c64/build-script-build`
+     Running `rustc --crate-name libffi_sys /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libffi-sys-0.6.3/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=bd559f8a262dfae1 -C extra-filename=-bd559f8a262dfae1 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --cap-lints allow -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib64 -l static=ffi`
+   Compiling libffi v0.6.4
+     Running `rustc --crate-name libffi /root/.cargo/registry/src/github.com-1ecc6299db9ec823/libffi-0.6.4/src/lib.rs --color never --crate-type lib --emit=dep-info,link -C debuginfo=2 -C metadata=22114aafb9eef8d3 -C extra-filename=-22114aafb9eef8d3 --out-dir /src/target/debug/deps -L dependency=/src/target/debug/deps --extern abort_on_panic=/src/target/debug/deps/libabort_on_panic-aa495b1080d3d180.rlib --extern libc=/src/target/debug/deps/liblibc-49802dcd396439e8.rlib --extern libffi_sys=/src/target/debug/deps/liblibffi_sys-bd559f8a262dfae1.rlib --cap-lints allow -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib64`
+   Compiling libffi-amzn v0.1.0 (/src)
+     Running `rustc --edition=2018 --crate-name libffi_amzn src/main.rs --color never --crate-type bin --emit=dep-info,link -C debuginfo=2 -C metadata=8649bdb0f5241a9e -C extra-filename=-8649bdb0f5241a9e --out-dir /src/target/debug/deps -C incremental=/src/target/debug/incremental -L dependency=/src/target/debug/deps --extern libffi=/src/target/debug/deps/liblibffi-22114aafb9eef8d3.rlib -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib -L /src/target/debug/build/libffi-sys-58acd9945774872e/out/libffi-root/lib64`
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 21s
+     Running `target/debug/libffi-amzn`
+Hello, world!
